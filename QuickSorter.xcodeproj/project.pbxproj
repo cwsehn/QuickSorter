@@ -12,6 +12,8 @@
 		13EFAE732046FD30003E46EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EFAE712046FD30003E46EA /* Main.storyboard */; };
 		13EFAE752046FD30003E46EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EFAE742046FD30003E46EA /* Assets.xcassets */; };
 		13EFAE782046FD30003E46EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EFAE762046FD30003E46EA /* LaunchScreen.storyboard */; };
+		13EFAE802046FD77003E46EA /* QuickSort.txt in Resources */ = {isa = PBXBuildFile; fileRef = 13EFAE7F2046FD77003E46EA /* QuickSort.txt */; };
+		13EFAE822046FF5A003E46EA /* QuickSorter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFAE812046FF5A003E46EA /* QuickSorter1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		13EFAE742046FD30003E46EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13EFAE772046FD30003E46EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13EFAE792046FD30003E46EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EFAE7F2046FD77003E46EA /* QuickSort.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickSort.txt; sourceTree = "<group>"; };
+		13EFAE812046FF5A003E46EA /* QuickSorter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSorter1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		13EFAE6C2046FD30003E46EA /* QuickSorter */ = {
 			isa = PBXGroup;
 			children = (
+				13EFAE7F2046FD77003E46EA /* QuickSort.txt */,
 				13EFAE6D2046FD30003E46EA /* AppDelegate.swift */,
 				13EFAE6F2046FD30003E46EA /* ViewController.swift */,
 				13EFAE712046FD30003E46EA /* Main.storyboard */,
 				13EFAE742046FD30003E46EA /* Assets.xcassets */,
 				13EFAE762046FD30003E46EA /* LaunchScreen.storyboard */,
 				13EFAE792046FD30003E46EA /* Info.plist */,
+				13EFAE812046FF5A003E46EA /* QuickSorter1.swift */,
 			);
 			path = QuickSorter;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EFAE802046FD77003E46EA /* QuickSort.txt in Resources */,
 				13EFAE782046FD30003E46EA /* LaunchScreen.storyboard in Resources */,
 				13EFAE752046FD30003E46EA /* Assets.xcassets in Resources */,
 				13EFAE732046FD30003E46EA /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13EFAE702046FD30003E46EA /* ViewController.swift in Sources */,
+				13EFAE822046FF5A003E46EA /* QuickSorter1.swift in Sources */,
 				13EFAE6E2046FD30003E46EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
